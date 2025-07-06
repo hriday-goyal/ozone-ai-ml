@@ -27,6 +27,11 @@ Hriday Goyal – Class 11 student
 Project Year: 2025  
 Device: Corona discharge ozone generator (volume: 13x12x12 in.)
 
+## 🌐 Live Demo
+
+Try the app here:  
+👉 [ozone-ai-ml-ozoneapphriday.streamlit.app](https://ozone-ai-ml-ozoneapphriday.streamlit.app/)
+
 ---
 
 *This project is designed for research, learning, and undergraduate admissions portfolio use.*
