@@ -1,30 +1,33 @@
-# 🌿 AI-Powered Ozone Generator
-
-A machine learning-based air purification system designed to predict ozone output, classify safety levels, and estimate indoor air purification efficiency.
+# 🌿 AirGuard – Accessible AI-Powered Ozone Dashboard
+A machine learning-based air purification and accessibility-focused dashboard that predicts ozone output, classifies safety levels, and estimates indoor air purification efficiency — built to support individuals with respiratory conditions like asthma or COPD.
 
 ## 📌 Overview
-This project combines hardware with software intelligence to improve indoor air quality using AI-enabled analysis. It features a multi-module ML model deployed as a Streamlit web app.
+This project combines IoT-inspired data with software intelligence to improve indoor air quality using AI-enabled analysis. It features a multi-module ML model deployed as a **Streamlit web app**, optimized for accessibility and ease of use.
 
-### 🔧 Technologies Used
+## 🔧 Technologies Used
 - Python
 - Streamlit
-- scikit-learn, NumPy, Pandas
+- scikit-learn
+- NumPy
+- Pandas
 
 ## 🚀 Features
-- Predict ozone output (g/hr)
-- Classify air quality safety levels
-- Estimate air purification efficiency
-- Clean UI with live ML inference
+- Predict ozone output (g/hr) using regression
+- Classify air safety levels for respiratory health
+- Estimate purification efficiency based on input factors
+- Clean, accessible UI with real-time ML inference
+- Hosted online via Streamlit Cloud
 
-## 🧪 Models Implemented
-- Regression for output prediction
-- Classification model for safety
-- Efficiency estimation using calculated metrics
+## 🧪 ML Models Implemented
+- Regression model for ozone output
+- Classification model for air safety
+- Efficiency estimation based on calculated metrics
 
-## 🖥 Live Demo
-👉 [Launch App](https://ozone-ai-ml-ozoneapphriday.streamlit.app)
+## 🔗 Live Demo
+👉 [Launch AirGuard](https://ozone-ai-ml-ozoneapphriday.streamlit.app)
 
 ## 📂 Project Structure
+```
 ozone-generator-ml/
 ├── ozone_predictor.py
 ├── classifier.py
@@ -32,11 +35,19 @@ ozone-generator-ml/
 ├── app.py
 ├── data.csv
 └── requirements.txt
+```
+
+## 📥 Installation & Usage
+To run locally:
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
 
 ## 🧠 What I Learned
-- Multi-model integration in one ML app
-- Streamlit deployment and app design
-- Real-world application of ML to environmental sustainability
+- Integrating multiple ML models into a single interactive tool
+- Designing with accessibility-first UI principles
+- Applying AI to social-impact problems like air quality and public health
 
 ## 📝 Research Paper
 This project was published in the IRJMETS Journal.  
@@ -47,5 +58,5 @@ MIT License
 
 ---
 
-👤 Author: Hriday Goyal  
-🔗 [GitHub](https://github.com/hriday-goyal) | [LinkedIn](https://linkedin.com/in/hridaygoyal)
+👤 **Author:** Hriday Goyal  
+🔗 [GitHub](https://github.com/hriday-goyal)
