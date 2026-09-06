@@ -41,4 +41,4 @@ st.markdown(f"**Safety Classification:** `{is_safe}`")
 st.markdown(f"**Estimated Purification Efficiency:** `{efficiency}%`")
 
 st.markdown("---")
-st.caption("Built by Hriday Goyal · Powered by Streamlit · Project Year: 2025")
+st.caption("Built by Hriday Goyal · Powered by Streamlit · Project Year: 2026")
